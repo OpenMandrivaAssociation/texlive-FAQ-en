@@ -11,6 +11,7 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(post):	texlive-tlpkg
 Conflicts:	texlive-texmf <= 20110705-3
+Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The FAQ that has in the past been published in the UK TeX Users
