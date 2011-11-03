@@ -1,3 +1,9 @@
+# revision 23849
+# category Package
+# catalog-ctan /help/uk-tex-faq
+# catalog-date 2011-09-06 18:25:58 +0200
+# catalog-license pd
+# catalog-version 3.23
 Name:		texlive-FAQ-en
 Version:	3.23
 Release:	1
@@ -78,6 +84,7 @@ CTAN). It is also available (and searchable) on the web.
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/markup-syntax
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/newfaq.pdf
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/newfaq.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -88,3 +95,5 @@ CTAN). It is also available (and searchable) on the web.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
