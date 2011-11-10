@@ -1,11 +1,11 @@
-# revision 23849
+# revision 24465
 # category Package
 # catalog-ctan /help/uk-tex-faq
-# catalog-date 2011-09-06 18:25:58 +0200
+# catalog-date 2011-11-01 14:08:22 +0100
 # catalog-license pd
-# catalog-version 3.23
+# catalog-version 3.24
 Name:		texlive-FAQ-en
-Version:	3.23
+Version:	3.24
 Release:	1
 Summary:	A compilation of Frequently Asked Questions with answers
 Group:		Publishing
@@ -38,6 +38,7 @@ CTAN). It is also available (and searchable) on the web.
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/CHANGES-3.21
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/CHANGES-3.22
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/CHANGES-3.23
+%doc %{_texmfdistdir}/doc/generic/FAQ-en/CHANGES-3.24
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/ChangeLog
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/FAQ-html.tar.gz
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/Makefile
