@@ -1,12 +1,12 @@
-# revision 24465
+# revision 25791
 # category Package
 # catalog-ctan /help/uk-tex-faq
-# catalog-date 2011-11-01 14:08:22 +0100
+# catalog-date 2012-03-30 16:18:37 +0200
 # catalog-license pd
-# catalog-version 3.24
+# catalog-version 3.25
 Name:		texlive-FAQ-en
-Version:	3.24
-Release:	2
+Version:	3.25
+Release:	1
 Summary:	A compilation of Frequently Asked Questions with answers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/help/uk-tex-faq
@@ -37,6 +37,7 @@ CTAN). It is also available (and searchable) on the web.
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/CHANGES-3.22
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/CHANGES-3.23
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/CHANGES-3.24
+%doc %{_texmfdistdir}/doc/generic/FAQ-en/CHANGES-3.25
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/ChangeLog
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/FAQ-html.tar.gz
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/Makefile
@@ -55,6 +56,7 @@ CTAN). It is also available (and searchable) on the web.
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/faq-graphics.tex
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/faq-how-do-i.tex
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/faq-hyp+pdf.tex
+%doc %{_texmfdistdir}/doc/generic/FAQ-en/faq-images.tex
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/faq-install.tex
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/faq-intro.tex
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/faq-jot-err.tex
