@@ -95,3 +95,27 @@ CTAN). It is also available (and searchable) on the web.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.25-1
++ Revision: 790519
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.24-2
++ Revision: 751793
+- Rebuild to reduce used resources
+
+* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.24-1
++ Revision: 729623
+- texlive-FAQ-en
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.23-1
++ Revision: 718420
+- texlive-FAQ-en
+- texlive-FAQ-en
+- texlive-FAQ-en
+- texlive-FAQ-en
+- texlive-FAQ-en
+- texlive-FAQ-en
+
