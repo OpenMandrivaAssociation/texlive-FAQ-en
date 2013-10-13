@@ -1,11 +1,11 @@
-# revision 25791
+# revision 31019
 # category Package
 # catalog-ctan /help/uk-tex-faq
-# catalog-date 2012-03-30 16:18:37 +0200
+# catalog-date 2013-06-07 16:28:15 +0200
 # catalog-license pd
-# catalog-version 3.25
+# catalog-version 3.27
 Name:		texlive-FAQ-en
-Version:	3.25
+Version:	3.27
 Release:	1
 Summary:	A compilation of Frequently Asked Questions with answers
 Group:		Publishing
@@ -20,7 +20,7 @@ Requires(pre):	texlive-tlpkg
 %description
 The FAQ that has in the past been published in the UK TeX Users
 Group journal Baskerville (though updated more frequently on
-CTAN). It is also available (and searchable) on the web.
+CTAN). It is also available (and searchable) via on the web.
 
 #-----------------------------------------------------------------------
 %files
@@ -38,9 +38,13 @@ CTAN). It is also available (and searchable) on the web.
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/CHANGES-3.23
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/CHANGES-3.24
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/CHANGES-3.25
+%doc %{_texmfdistdir}/doc/generic/FAQ-en/CHANGES-3.26
+%doc %{_texmfdistdir}/doc/generic/FAQ-en/CHANGES-3.27
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/ChangeLog
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/FAQ-html.tar.gz
+%doc %{_texmfdistdir}/doc/generic/FAQ-en/FAQ-html.tar.xz
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/Makefile
+%doc %{_texmfdistdir}/doc/generic/FAQ-en/Makefile-CTAN
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/README
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/archive.cfg
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/dirctan.tex
@@ -79,6 +83,7 @@ CTAN). It is also available (and searchable) on the web.
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/faqfont.cfg.ugm
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/filectan.tex
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/gather-faqbody.tex
+%doc %{_texmfdistdir}/doc/generic/FAQ-en/install-CTAN
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/letterfaq.pdf
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/letterfaq.tex
 %doc %{_texmfdistdir}/doc/generic/FAQ-en/locations.mk
@@ -95,27 +100,3 @@ CTAN). It is also available (and searchable) on the web.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.25-1
-+ Revision: 790519
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.24-2
-+ Revision: 751793
-- Rebuild to reduce used resources
-
-* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.24-1
-+ Revision: 729623
-- texlive-FAQ-en
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.23-1
-+ Revision: 718420
-- texlive-FAQ-en
-- texlive-FAQ-en
-- texlive-FAQ-en
-- texlive-FAQ-en
-- texlive-FAQ-en
-- texlive-FAQ-en
-
