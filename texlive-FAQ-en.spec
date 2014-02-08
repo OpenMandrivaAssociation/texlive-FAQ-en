@@ -6,7 +6,7 @@
 # catalog-version 3.25
 Name:		texlive-FAQ-en
 Version:	3.25
-Release:	1
+Release:	2
 Summary:	A compilation of Frequently Asked Questions with answers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/help/uk-tex-faq
