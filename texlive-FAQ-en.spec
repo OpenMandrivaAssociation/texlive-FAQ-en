@@ -9,7 +9,7 @@ Version:	3.27
 Release:	12
 Summary:	A compilation of Frequently Asked Questions with answers
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/help/uk-tex-faq
+URL:		https://www.ctan.org/tex-archive/help/uk-tex-faq
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/FAQ-en.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/FAQ-en.doc.tar.xz
